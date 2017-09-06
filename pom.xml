@@ -8,9 +8,7 @@
     <version>0.0.1</version>
     
     <properties>
-        <springBoot.version>1.5.6.RELEASE</springBoot.version>
-        <hibernate.version>5.2.10.Final</hibernate.version>
-        <org.mapstruct.version>1.2.0.CR2</org.mapstruct.version>
+        <springBoot.version>1.5.4.RELEASE</springBoot.version>
     </properties>
 
     <build>
@@ -54,11 +52,6 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-jetty</artifactId>
-                <version>${springBoot.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-security</artifactId>
                 <version>${springBoot.version}</version>
             </dependency>
     </dependencies>
